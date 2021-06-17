@@ -1,0 +1,9 @@
+{
+  "name": "sysclock",
+  "version": "1.0.0",
+  "description": "sets the system clock",
+  "main": "index.js",
+  "repository": "https://github.com/dalirnet/sysclock.git",
+  "author": "AmirRezaDalir <dalirnet@gmail.com>",
+  "license": "MIT"
+}
