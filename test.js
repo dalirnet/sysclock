@@ -7,13 +7,14 @@ Promise.resolve()
         return sysClockInstance.ntp(false)
     })
     .then(() => {
-        return console.log('done ntp inactive.')
+        console.log('Done ntp inactive.')
+        console.log('Current date', new Date().toUTCString())
     })
     .then(() => {
         return sysClockInstance.date('1992-05-12 09:30:00')
     })
     .then(() => {
-        return console.log('done ntp active.')
+        console.log('New date', new Date().toUTCString())
     })
     .catch((message) => {
         console.error(message)
